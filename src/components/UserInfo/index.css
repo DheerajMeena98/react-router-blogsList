@@ -1,0 +1,19 @@
+.profile-name-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+.profile-image {
+  width: 20%;
+}
+
+.profile-name {
+  font-size: 20px;
+}
+
+.profile-title {
+  font-size: 16px;
+}

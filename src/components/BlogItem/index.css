@@ -1,0 +1,40 @@
+.each-blog-post {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.title-published-date-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.blog-title {
+  font-size: 17px;
+}
+
+.blog-description {
+  font-size: 13px;
+}
+
+.published-date {
+  font-size: 13px;
+  margin-right: 10px;
+}
+
+@media screen and (min-width: 568px) {
+  .blog-title {
+    font-size: 20px;
+  }
+
+  .blog-description {
+    font-size: 16px;
+  }
+
+  .published-date {
+    font-size: 16px;
+    margin-right: 10px;
+  }
+}
